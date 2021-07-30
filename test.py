@@ -28,84 +28,76 @@ while loop:
             if event.axis == 3:
                 print("R Vertical", event.value)
 
-            # Triggers
-            if event.axis == 4:
-                if event.value > 0:
-                    print("L Trigger Down")
-                else:
-                    print("L Trigger Up")
+#             # Triggers
+#             if event.axis == 4:
+#                 if event.value > 0:
+#                     print("L Trigger Down")
+#                 else:
+#                     print("L Trigger Up")
 
-            if event.axis == 5:
-                if event.value > 0:
-                    print("R Trigger Down")
-                else:
-                    print("R Trigger Up")
+#             if event.axis == 5:
+#                 if event.value > 0:
+#                     print("R Trigger Down")
+#                 else:
+#                     print("R Trigger Up")
 
 
         if event.type == pygame.JOYBUTTONDOWN:
             if event.button == 0:
-                print("A Down")
+                print("Y Down")
             if event.button == 1:
                 print("B Down")
             if event.button == 2:
-                print("X Down")
+                print("A Down")
             if event.button == 3:
-                print("Y Down")
+                print("X Down")
             if event.button == 4:
-                print("- Down")
+                print("LB Down")
             if event.button == 5:
-                print("Home Down")
+                print("RB Down")
             if event.button == 6:
-                print("+ Down")
+                print("LT Down")
             if event.button == 7:
-                print("L Stick Down")
+                print("RT Down")
             if event.button == 8:
-                print("R Stick Down")
+                print("- Down")
             if event.button == 9:
-                print("L Bumper Down")
+                print("+ Down")
             if event.button == 10:
-                print("R Bumper Down")
+                print("L Stick Down")
             if event.button == 11:
-                print("Up Down")
+                print("R Stick Down")
             if event.button == 12:
-                print("Down Down")
+                print("Home Down")
             if event.button == 13:
-                print("Left Down")
-            if event.button == 14:
-                print("Right Down")
-            if event.button == 15:
-                print("Screenshot Down")
+                print("Capture Down")
             
         if event.type == pygame.JOYBUTTONUP:
             if event.button == 0:
-                print("A Up")
+                print("Y Up")
             if event.button == 1:
                 print("B Up")
             if event.button == 2:
-                print("X Up")
+                print("A Up")
             if event.button == 3:
-                print("Y Up")
+                print("X Up")
             if event.button == 4:
-                print("- Up")
+                print("LB Up")
             if event.button == 5:
-                print("Home Up")
+                print("RB Up")
             if event.button == 6:
-                print("+ Up")
+                print("LT Up")
             if event.button == 7:
-                print("L Stick Up")
+                print("RT Up")
             if event.button == 8:
-                print("R Stick Up")
+                print("- Up")
             if event.button == 9:
-                print("L Bumper Up")
+                print("+ Up")
             if event.button == 10:
-                print("R Bumper Up")
+                print("L Stick Up")
             if event.button == 11:
-                print("Up Up")
+                print("R Stick Up")
             if event.button == 12:
-                print("Down Up")
+                print("Home Up")
             if event.button == 13:
-                print("Left Up")
-            if event.button == 14:
-                print("Right Up")
-            if event.button == 15:
-                print("Screenshot Up")
+                print("Capture Up")
